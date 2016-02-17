@@ -1,0 +1,145 @@
+$grey: #9C9CA9
+$orange: #FA846C
+$teal: #172E36
+$yellow: #FAF1E7
+$background: 
+$text:
+$hilight
+
+@font-face 
+    font-family: akkuratBold
+    src: url(akkuratBold.ttf)
+$akkurat: akkuratBold
+@font-face 
+    font-family: garamond
+    src: url(garamond.ttf)
+$garamond: garamond
+html
+    font-family: $garamond
+    font-size: 16px
+    line-height: 24px 
+body 
+    background-color: $teal
+    color: $yellow
+    text-align: center
+    a
+        color: $yellow
+        text-decoration: none
+        font-style: italic
+.wrap
+    max-width: 800px
+    margin: 4rem auto
+h1,h2
+    color: $orange
+    font-family: $akkurat
+    line-height: 1em
+    letter-spacing: -1
+h1
+    font-size: 4rem
+    @media screen and (max-width: 320px)
+        font-size: 3rem
+        line-height: 1em
+h2
+    font-size: 2rem
+    margin: 0.5em
+form
+    label
+        font-family: akkurat-bold
+        color: $orange
+        font-family: $akkurat
+        display: block
+    #mc-embedded-subscribe
+        background-color: rgba(0,0,0,0)
+        border: 1px solid $yellow
+        height: 34px
+        border-radius: 0 0.25rem 0.25rem 0 
+        font-family: $akkurat
+        display: inline-block
+        color: $yellow
+        vertical-align: bottom
+        &:hover
+            color: $teal
+            background-color: $yellow
+        &:active
+            color: $yellow
+            background-color: $orange
+            outline: none
+        &:focus
+            color: $yellow
+            background-color: $orange
+            outline: none
+        &:focus
+#mce-EMAIL
+    background-color: rgba(0,0,0,0)
+    border: 1px solid $yellow
+    font-family: $akkurat
+    border-radius: 0.25rem 0 0 0.25rem
+    height: 30px
+    border: 1px solid $yellow
+    border-right: none
+    padding-left: 0.5rem
+    color: $yellow
+    vertical-align: bottom
+    &::-webkit-input-placeholder 
+        opacity: 1
+        color: $yellow
+    &:-ms-input-placeholder
+        opacity: 1
+        color: $yellow
+    &::-ms-input-placeholder 
+        opacity: 1
+        color: $yellow
+    &:-moz-placeholder
+        opacity: 1
+        color: $yellow
+    &:focus
+        outline: none
+        color: $yellow
+        background-color: $orange
+        &::-webkit-input-placeholder, &:-ms-input-placeholder,&::-ms-input-placeholder,&:-moz-placeholder
+            color: $yellow
+#mce-EMAIL
+    background-color: rgba(0,0,0,0)
+    border: 1px solid $yellow
+    font-family: $akkurat
+    border-radius: 0.25rem 0 0 0.25rem
+    height: 30px
+    border: 1px solid $yellow
+    border-right: none
+    padding-left: 0.5rem
+    color: $yellow
+    vertical-align: bottom
+    &::-webkit-input-placeholder 
+        opacity: 1
+        color: $yellow
+    &:-ms-input-placeholder
+        opacity: 1
+        color: $yellow
+    &::-ms-input-placeholder 
+        opacity: 1
+        color: $yellow
+    &:-moz-placeholder
+        opacity: 1
+        color: $yellow
+    &:focus
+        outline: none
+        color: $yellow
+        background-color: $orange
+        &::-webkit-input-placeholder, &:-ms-input-placeholder,&::-ms-input-placeholder,&:-moz-placeholder
+            color: $yellow
+ul 
+    padding: 0 
+li
+    list-style-type: none
+dl
+    text-align: left
+    margin: 0
+dd
+    display: inline-block
+    width: 49%
+    margin: 0
+    float: right
+dt
+    display: inline-block
+    width: 49%
+    text-align: right

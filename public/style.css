@@ -1,0 +1,147 @@
+@font-face {
+  font-family: akkuratBold;
+  src: url(akkuratBold.ttf); }
+@font-face {
+  font-family: garamond;
+  src: url(garamond.ttf); }
+html {
+  font-family: garamond;
+  font-size: 16px;
+  line-height: 24px; }
+
+body {
+  background-color: #172E36;
+  color: #FAF1E7;
+  text-align: center; }
+  body a {
+    color: #FAF1E7;
+    text-decoration: none;
+    font-style: italic; }
+
+.wrap {
+  max-width: 800px;
+  margin: 4rem auto; }
+
+h1, h2 {
+  color: #FA846C;
+  font-family: akkuratBold;
+  line-height: 1em;
+  letter-spacing: -1; }
+
+h1 {
+  font-size: 4rem; }
+  @media screen and (max-width: 320px) {
+    h1 {
+      font-size: 3rem;
+      line-height: 1em; } }
+
+h2 {
+  font-size: 2rem;
+  margin: 0.5em; }
+
+form label {
+  font-family: akkurat-bold;
+  color: #FA846C;
+  font-family: akkuratBold;
+  display: block; }
+form #mc-embedded-subscribe {
+  background-color: transparent;
+  border: 1px solid #FAF1E7;
+  height: 34px;
+  border-radius: 0 0.25rem 0.25rem 0;
+  font-family: akkuratBold;
+  display: inline-block;
+  color: #FAF1E7;
+  vertical-align: bottom; }
+  form #mc-embedded-subscribe:hover {
+    color: #172E36;
+    background-color: #FAF1E7; }
+  form #mc-embedded-subscribe:active {
+    color: #FAF1E7;
+    background-color: #FA846C;
+    outline: none; }
+  form #mc-embedded-subscribe:focus {
+    color: #FAF1E7;
+    background-color: #FA846C;
+    outline: none; }
+
+#mce-EMAIL {
+  background-color: transparent;
+  border: 1px solid #FAF1E7;
+  font-family: akkuratBold;
+  border-radius: 0.25rem 0 0 0.25rem;
+  height: 30px;
+  border: 1px solid #FAF1E7;
+  border-right: none;
+  padding-left: 0.5rem;
+  color: #FAF1E7;
+  vertical-align: bottom; }
+  #mce-EMAIL::-webkit-input-placeholder {
+    opacity: 1;
+    color: #FAF1E7; }
+  #mce-EMAIL:-ms-input-placeholder {
+    opacity: 1;
+    color: #FAF1E7; }
+  #mce-EMAIL::-ms-input-placeholder {
+    opacity: 1;
+    color: #FAF1E7; }
+  #mce-EMAIL:-moz-placeholder {
+    opacity: 1;
+    color: #FAF1E7; }
+  #mce-EMAIL:focus {
+    outline: none;
+    color: #FAF1E7;
+    background-color: #FA846C; }
+    #mce-EMAIL:focus::-webkit-input-placeholder, #mce-EMAIL:focus:-ms-input-placeholder, #mce-EMAIL:focus::-ms-input-placeholder, #mce-EMAIL:focus:-moz-placeholder {
+      color: #FAF1E7; }
+
+#mce-EMAIL {
+  background-color: transparent;
+  border: 1px solid #FAF1E7;
+  font-family: akkuratBold;
+  border-radius: 0.25rem 0 0 0.25rem;
+  height: 30px;
+  border: 1px solid #FAF1E7;
+  border-right: none;
+  padding-left: 0.5rem;
+  color: #FAF1E7;
+  vertical-align: bottom; }
+  #mce-EMAIL::-webkit-input-placeholder {
+    opacity: 1;
+    color: #FAF1E7; }
+  #mce-EMAIL:-ms-input-placeholder {
+    opacity: 1;
+    color: #FAF1E7; }
+  #mce-EMAIL::-ms-input-placeholder {
+    opacity: 1;
+    color: #FAF1E7; }
+  #mce-EMAIL:-moz-placeholder {
+    opacity: 1;
+    color: #FAF1E7; }
+  #mce-EMAIL:focus {
+    outline: none;
+    color: #FAF1E7;
+    background-color: #FA846C; }
+    #mce-EMAIL:focus::-webkit-input-placeholder, #mce-EMAIL:focus:-ms-input-placeholder, #mce-EMAIL:focus::-ms-input-placeholder, #mce-EMAIL:focus:-moz-placeholder {
+      color: #FAF1E7; }
+
+ul {
+  padding: 0; }
+
+li {
+  list-style-type: none; }
+
+dl {
+  text-align: left;
+  margin: 0; }
+
+dd {
+  display: inline-block;
+  width: 49%;
+  margin: 0;
+  float: right; }
+
+dt {
+  display: inline-block;
+  width: 49%;
+  text-align: right; }
