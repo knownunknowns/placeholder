@@ -10,11 +10,11 @@ html {
   line-height: 24px; }
 
 body {
-  background-color: #172E36;
-  color: #FAF1E7;
+  background-color: #fff;
+  color: #172E36;
   text-align: center; }
   body a {
-    color: #FAF1E7;
+    color: #172E36;
     text-decoration: none;
     font-style: italic; }
 
@@ -46,84 +46,84 @@ form label {
   display: block; }
 form #mc-embedded-subscribe {
   background-color: transparent;
-  border: 1px solid #FAF1E7;
+  border: 1px solid #172E36;
   height: 34px;
   border-radius: 0 0.25rem 0.25rem 0;
   font-family: akkuratBold;
   display: inline-block;
-  color: #FAF1E7;
+  color: #172E36;
   vertical-align: bottom; }
   form #mc-embedded-subscribe:hover {
     color: #172E36;
-    background-color: #FAF1E7; }
+    background-color: #172E36; }
   form #mc-embedded-subscribe:active {
-    color: #FAF1E7;
+    color: #172E36;
     background-color: #FA846C;
     outline: none; }
   form #mc-embedded-subscribe:focus {
-    color: #FAF1E7;
+    color: #172E36;
     background-color: #FA846C;
     outline: none; }
 
 #mce-EMAIL {
   background-color: transparent;
-  border: 1px solid #FAF1E7;
+  border: 1px solid #172E36;
   font-family: akkuratBold;
   border-radius: 0.25rem 0 0 0.25rem;
   height: 30px;
-  border: 1px solid #FAF1E7;
+  border: 1px solid #172E36;
   border-right: none;
   padding-left: 0.5rem;
-  color: #FAF1E7;
+  color: #172E36;
   vertical-align: bottom; }
   #mce-EMAIL::-webkit-input-placeholder {
     opacity: 1;
-    color: #FAF1E7; }
+    color: #172E36; }
   #mce-EMAIL:-ms-input-placeholder {
     opacity: 1;
-    color: #FAF1E7; }
+    color: #172E36; }
   #mce-EMAIL::-ms-input-placeholder {
     opacity: 1;
-    color: #FAF1E7; }
+    color: #172E36; }
   #mce-EMAIL:-moz-placeholder {
     opacity: 1;
-    color: #FAF1E7; }
+    color: #172E36; }
   #mce-EMAIL:focus {
     outline: none;
-    color: #FAF1E7;
+    color: #172E36;
     background-color: #FA846C; }
     #mce-EMAIL:focus::-webkit-input-placeholder, #mce-EMAIL:focus:-ms-input-placeholder, #mce-EMAIL:focus::-ms-input-placeholder, #mce-EMAIL:focus:-moz-placeholder {
-      color: #FAF1E7; }
+      color: #172E36; }
 
 #mce-EMAIL {
   background-color: transparent;
-  border: 1px solid #FAF1E7;
+  border: 1px solid #172E36;
   font-family: akkuratBold;
   border-radius: 0.25rem 0 0 0.25rem;
   height: 30px;
-  border: 1px solid #FAF1E7;
+  border: 1px solid #172E36;
   border-right: none;
   padding-left: 0.5rem;
-  color: #FAF1E7;
+  color: #172E36;
   vertical-align: bottom; }
   #mce-EMAIL::-webkit-input-placeholder {
     opacity: 1;
-    color: #FAF1E7; }
+    color: #172E36; }
   #mce-EMAIL:-ms-input-placeholder {
     opacity: 1;
-    color: #FAF1E7; }
+    color: #172E36; }
   #mce-EMAIL::-ms-input-placeholder {
     opacity: 1;
-    color: #FAF1E7; }
+    color: #172E36; }
   #mce-EMAIL:-moz-placeholder {
     opacity: 1;
-    color: #FAF1E7; }
+    color: #172E36; }
   #mce-EMAIL:focus {
     outline: none;
-    color: #FAF1E7;
+    color: #172E36;
     background-color: #FA846C; }
     #mce-EMAIL:focus::-webkit-input-placeholder, #mce-EMAIL:focus:-ms-input-placeholder, #mce-EMAIL:focus::-ms-input-placeholder, #mce-EMAIL:focus:-moz-placeholder {
-      color: #FAF1E7; }
+      color: #172E36; }
 
 ul {
   padding: 0; }

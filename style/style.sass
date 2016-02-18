@@ -2,9 +2,9 @@ $grey: #9C9CA9
 $orange: #FA846C
 $teal: #172E36
 $yellow: #FAF1E7
-$background: 
-$text:
-$hilight
+$background: #fff
+$text: $teal
+$hilight: $orange
 
 @font-face 
     font-family: akkuratBold
@@ -19,18 +19,18 @@ html
     font-size: 16px
     line-height: 24px 
 body 
-    background-color: $teal
-    color: $yellow
+    background-color: $background
+    color: $text
     text-align: center
     a
-        color: $yellow
+        color: $text
         text-decoration: none
         font-style: italic
 .wrap
     max-width: 800px
     margin: 4rem auto
 h1,h2
-    color: $orange
+    color: $hilight
     font-family: $akkurat
     line-height: 1em
     letter-spacing: -1
@@ -45,88 +45,88 @@ h2
 form
     label
         font-family: akkurat-bold
-        color: $orange
+        color: $hilight
         font-family: $akkurat
         display: block
     #mc-embedded-subscribe
         background-color: rgba(0,0,0,0)
-        border: 1px solid $yellow
+        border: 1px solid $text
         height: 34px
         border-radius: 0 0.25rem 0.25rem 0 
         font-family: $akkurat
         display: inline-block
-        color: $yellow
+        color: $text
         vertical-align: bottom
         &:hover
-            color: $teal
-            background-color: $yellow
+            color: $text
+            background-color: $text
         &:active
-            color: $yellow
-            background-color: $orange
+            color: $text
+            background-color: $hilight
             outline: none
         &:focus
-            color: $yellow
-            background-color: $orange
+            color: $text
+            background-color: $hilight
             outline: none
         &:focus
 #mce-EMAIL
     background-color: rgba(0,0,0,0)
-    border: 1px solid $yellow
+    border: 1px solid $text
     font-family: $akkurat
     border-radius: 0.25rem 0 0 0.25rem
     height: 30px
-    border: 1px solid $yellow
+    border: 1px solid $text
     border-right: none
     padding-left: 0.5rem
-    color: $yellow
+    color: $text
     vertical-align: bottom
     &::-webkit-input-placeholder 
         opacity: 1
-        color: $yellow
+        color: $text
     &:-ms-input-placeholder
         opacity: 1
-        color: $yellow
+        color: $text
     &::-ms-input-placeholder 
         opacity: 1
-        color: $yellow
+        color: $text
     &:-moz-placeholder
         opacity: 1
-        color: $yellow
+        color: $text
     &:focus
         outline: none
-        color: $yellow
-        background-color: $orange
+        color: $text
+        background-color: $hilight
         &::-webkit-input-placeholder, &:-ms-input-placeholder,&::-ms-input-placeholder,&:-moz-placeholder
-            color: $yellow
+            color: $text
 #mce-EMAIL
     background-color: rgba(0,0,0,0)
-    border: 1px solid $yellow
+    border: 1px solid $text
     font-family: $akkurat
     border-radius: 0.25rem 0 0 0.25rem
     height: 30px
-    border: 1px solid $yellow
+    border: 1px solid $text
     border-right: none
     padding-left: 0.5rem
-    color: $yellow
+    color: $text
     vertical-align: bottom
     &::-webkit-input-placeholder 
         opacity: 1
-        color: $yellow
+        color: $text
     &:-ms-input-placeholder
         opacity: 1
-        color: $yellow
+        color: $text
     &::-ms-input-placeholder 
         opacity: 1
-        color: $yellow
+        color: $text
     &:-moz-placeholder
         opacity: 1
-        color: $yellow
+        color: $text
     &:focus
         outline: none
-        color: $yellow
-        background-color: $orange
+        color: $text
+        background-color: $hilight
         &::-webkit-input-placeholder, &:-ms-input-placeholder,&::-ms-input-placeholder,&:-moz-placeholder
-            color: $yellow
+            color: $text
 ul 
     padding: 0 
 li
