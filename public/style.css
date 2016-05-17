@@ -23,7 +23,7 @@ body {
   margin: 4rem auto; }
 
 h1, h2 {
-  color: #FA846C;
+  color: #F07d44;
   font-family: akkuratBold;
   line-height: 1em;
   letter-spacing: -1; }
@@ -41,7 +41,7 @@ h2 {
 
 form label {
   font-family: akkurat-bold;
-  color: #FA846C;
+  color: #F07d44;
   font-family: akkuratBold;
   display: block; }
 form #mc-embedded-subscribe {
@@ -58,11 +58,11 @@ form #mc-embedded-subscribe {
     background-color: #172E36; }
   form #mc-embedded-subscribe:active {
     color: #172E36;
-    background-color: #FA846C;
+    background-color: #F07d44;
     outline: none; }
   form #mc-embedded-subscribe:focus {
     color: #172E36;
-    background-color: #FA846C;
+    background-color: #F07d44;
     outline: none; }
 
 #mce-EMAIL {
@@ -91,7 +91,7 @@ form #mc-embedded-subscribe {
   #mce-EMAIL:focus {
     outline: none;
     color: #172E36;
-    background-color: #FA846C; }
+    background-color: #F07d44; }
     #mce-EMAIL:focus::-webkit-input-placeholder, #mce-EMAIL:focus:-ms-input-placeholder, #mce-EMAIL:focus::-ms-input-placeholder, #mce-EMAIL:focus:-moz-placeholder {
       color: #172E36; }
 
@@ -121,7 +121,7 @@ form #mc-embedded-subscribe {
   #mce-EMAIL:focus {
     outline: none;
     color: #172E36;
-    background-color: #FA846C; }
+    background-color: #F07d44; }
     #mce-EMAIL:focus::-webkit-input-placeholder, #mce-EMAIL:focus:-ms-input-placeholder, #mce-EMAIL:focus::-ms-input-placeholder, #mce-EMAIL:focus:-moz-placeholder {
       color: #172E36; }
 
